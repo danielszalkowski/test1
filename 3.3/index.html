@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pràctica 3.3</title>
+    <link rel="stylesheet" href="style.css">
+        <script>
+        function funcion_edad() {
+          var name = document.getElementById("name").value;
+          var surname = document.getElementById("surname").value;
+          alert ('Bienvenido ' + name + ' ' + surname + '')
+        }
+        
+        </script>
+</head>
+<body>
+    <h1>Practica bloque 3</h1>
+    Introduce nombre: <input type="text" id="name">
+    Introduce apellido 1: <input type="text" id="surname" onchange="funcion_edad()">
+</body>
+</html>
